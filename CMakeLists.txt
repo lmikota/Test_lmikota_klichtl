@@ -4,4 +4,6 @@ project(Test_lmikota_klichtl C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Test_lmikota_klichtl
-        main.c)
+        main.c
+        functions.c
+        functions.h)
